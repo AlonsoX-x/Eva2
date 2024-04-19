@@ -18,12 +18,14 @@ h1,h2,h3,h4,h5{
 .container{
     width: 100%;
     margin: auto;
+	z-index: 20;
 }
 .container--flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+	z-index: 20;
 }
 .column{
     width: 100%;

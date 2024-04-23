@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Tu Gato</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">999-9999
+                    </span>
+                </p>
+                <p class="main-header__contactInfo__addres">
+                    <span class="icon-location">Mi calle 123 Talcahuano</span>
+                </p>                
+            </div>
+        </div>
+    </header>
+    <nav class="main_nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-instagram"></span></a>
+            </div>
+        </div>
+    </nav>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website with a contact Form 01</title>
+    <link rel="stylesheet" href="css/ContactStyle.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="shortcut icon" href="./img/logotipo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>porno</h1>
+    
+    <div class="content">
+
+        <h1 class="logo">Contactenos <span>para mas informacion</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Su registro:</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre Completo</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Numero de Telefono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Rut</label>
+                        <input type="text" name="Rut">
+                    </p>
+                    <p class="block">
+                       <label>Descripcion de su Situacion</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Send
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>More Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Talcahuano</li>
+                    <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
+                    <li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>
+                </ul>
+                <p>Registrese y sera comunicado en las proximas 24 horas con mas informacion y ayuda para su comodidad.</p>
+                <p>Coneshop.com</p>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 </html>

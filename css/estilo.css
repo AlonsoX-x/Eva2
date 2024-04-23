@@ -18,14 +18,12 @@ h1,h2,h3,h4,h5{
 .container{
     width: 100%;
     margin: auto;
-	z-index: 20;
 }
 .container--flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-	z-index: 20;
 }
 .column{
     width: 100%;
@@ -133,10 +131,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: #172724;
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: #3b3b3b;
     
 }
 .mostrar{
@@ -178,7 +176,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: #b4ffef;
 	padding: 10px;
 	text-align: center;
 	
@@ -399,7 +397,6 @@ h1,h2,h3,h4,h5{
 	
 	}
 }
-
 
 
 
